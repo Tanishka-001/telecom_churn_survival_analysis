@@ -9,9 +9,6 @@ Predicts **when** customers churn using Cox Proportional Hazards (C-index **0.84
 | **CV C-Index**  | **0.858** | Cross-validated stability   |
 | Dataset         | 7043 customers | Kaggle Telco (tenure/Churn) |
 
-![Survival Curves](C:\Users\tanii\Downloads\Projects\survival_curve.png)
-![Cox Hazards]()
-
 ## Key Insights
 - **Churn Bombs:** Month-to-month + Fiber Optic (HR ~1.4)
 - **Retention Wins:** TechSupport + 2yr contracts (HR <0.7)
