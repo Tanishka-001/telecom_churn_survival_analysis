@@ -8,7 +8,7 @@ Predicts **churn timing** (C-index **0.846**). Fiber + e-check = danger zone.
 | **Test C-Index** | **0.846** |
 | **CV C-Index**   | **0.858**  |
 
-**![Survival Curve](survival_curve.png)**
+**![Survival Curve](Screenshot 2026-01-05 233911.png)**
 **![Cox Hazards](cox_hazards.png)**
 
 ## Insights
