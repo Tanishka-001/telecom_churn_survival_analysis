@@ -13,13 +13,16 @@ Kaplan-Meier curves + Cox Proportional Hazards (CoxPH) on 7,043 Kaggle Telco cus
 - Fiber optic: **1.38x risk** → bundles **-25% churn**  
 - 2-yr contracts: **0.31x risk** → **+$2.1M LTV** (10% shift)
 
+[Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
+
 ## Business Problem Pic
 
 ![Survival Curve](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/44f823044c46bc2f791c232d93da1bb3a1009d65/survival_curve.png)
-*Month-to-month 50% by Month 8 vs 2-yr >90%*
+*Month-to-month plummets 50% Month 8; 2-yr >90% retention—timing gap binary models miss.*
+
 
 ![KM Curves](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/38bbf9d5c8f8c25a72c436f992f7763199a53a8e/Hazard%20table.png)
-*Electronic check steepest drop*
+*Electronic check (top red): fastest churn risk—urgent retention target.*
 
 ## Methodology 
 1. Data: Kaggle Telco-Churn (21 feats)
@@ -62,6 +65,8 @@ Python | pandas | lifelines | matplotlib | Survival Analysis | EDA | scikit-lear
 ```python
 import pickle; import pandas as pd
 model = pickle.load(open('telcochurncoxmodel.pkl', 'rb'))
+df_new = pd.read_csv('new_customers.csv')
 df_new['hazard'] = model.predict_partial_hazards(df_new)
-print(df_new.sort_values('hazard', ascending=False))
+print(df_new[['CustomerID', 'hazard']].sort_values('hazard', ascending=False))
+
 
