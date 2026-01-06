@@ -13,7 +13,7 @@ Kaplan-Meier curves + Cox Proportional Hazards (CoxPH) on 7,043 Kaggle Telco cus
 - Fiber optic: **1.38x risk** → bundles **-25% churn**  
 - 2-yr contracts: **0.31x risk** → **+$2.1M LTV** (10% shift)
 
-[Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
+## Colab   :  [Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
 
 ## Business Problem Pic
 
