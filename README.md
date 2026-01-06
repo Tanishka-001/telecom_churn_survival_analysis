@@ -1,4 +1,4 @@
-# Telecom Churn Survival Analysis: CoxPH Lifetime Prediction (C-index 0.846)
+# Telco Churn Survival Analysis: CoxPH Lifetime Prediction (C-index 0.846)
 
 ## Executive Summary
 
@@ -12,8 +12,8 @@ Kaplan-Meier curves + Cox Proportional Hazards (CoxPH) on 7,043 Kaggle Telco cus
 - Electronic check: **1.56x risk** → auto-pay **-40% risk**
 - Fiber optic: **1.38x risk** → bundles **-25% churn**  
 - 2-yr contracts: **0.31x risk** → **+$2.1M LTV** (10% shift)
-
-## Colab   :  [Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
+- 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
 
 ## Business Problem Pic
 
