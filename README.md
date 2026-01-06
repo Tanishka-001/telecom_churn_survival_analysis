@@ -18,10 +18,12 @@ Kaplan-Meier curves + Cox Proportional Hazards (CoxPH) on 7,043 Kaggle Telco cus
 ## Business Problem Pic
 
 ![Survival Curve](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/44f823044c46bc2f791c232d93da1bb3a1009d65/survival_curve.png)
+
 *Month-to-month plummets 50% Month 8; 2-yr >90% retention—timing gap binary models miss.*
 
 
 ![KM Curves](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/38bbf9d5c8f8c25a72c436f992f7763199a53a8e/Hazard%20table.png)
+
 *Electronic check (top red): fastest churn risk—urgent retention target.*
 
 ## Methodology 
