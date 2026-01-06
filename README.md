@@ -62,7 +62,7 @@ Telcos lose $38B/year to churn. Basic models flag *who* leaves. **Predict tenure
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![lifelines](https://img.shields.io/badge/lifelines-0.30-orange)
 ![pandas](https://img.shields.io/badge/pandas-2.1-green)
-![scikit-learn]( https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
+![scikit-learn]( https://img.shields.io/badge/scikit-learn-passing-brightgreen?style=for-the-badge)
 
 ## Quick Demo
 ```python
