@@ -1,9 +1,7 @@
-![Survival Analysis Badge](https://img.shields.io/badge/Survival%20Analysis-CoxPH%20C%2DIndex%200.846-brightgreen)
-
 # Telecom Churn Survival: Predict *When* They Leave (Not Just If)
 
 **Most churn models say "who" (80% accuracy). This predicts *when* + prioritizes retention using Cox Proportional Hazards.** C-index **0.846** (test) beats logistic baselines. [Colab Notebook](https://colab.research.google.com/github/Tanishka-001/telecom-churn-survival-analysis/blob/main/churn_survival_analysis.ipynb)
-
+https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing
 ## Business Problem
 Telcos lose $X billion/year to churn. Basic models flag *who* leaves. **We predict tenure + rank risks**:
 - Month-to-month: **2.27x churn speed** (HR)
