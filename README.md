@@ -4,7 +4,7 @@
 
 ## Dataset : [![Kaggle](https://img.shields.io/badge/Dataset-Telco%20Churn-blue)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-## Colab   :  [![Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
+## Colab   :  [Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
 
 ## Business Problem
 Telcos lose $38B/year to churn. Basic models flag *who* leaves. **Predict tenure + rank risks**:
